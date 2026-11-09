@@ -1,17 +1,17 @@
 ---
 name: branch-finance-repair
-description: 按做账人的流程整理流水、分配收支、核对扣返款、计算收益并出表。适用于月度做账和报表差额排查。
+description: Follow an eight-step monthly bookkeeping workflow to review bank transactions, allocate receipts and expenses, check deductions and refunds, reconcile balances, and prepare reports.
 ---
 
-# 我做账时总结的八个步骤
+# The eight steps I use to keep the books
 
-1. **定范围。** 我先写清月份、账户和主体，列出已收到和还缺的资料。
-2. **理流水。** 我按实际收付整理银行明细，保留每笔的来源。期初、合计和重复导入的记录单独识别。
-3. **分收入。** 我先确认款项性质，再分到主体和人员。提成从已分的份额里划，分完后各份相加应等于原款。
-4. **分支出。** 我给每笔支出定类别和承担人，把工资等明细关联到实际付款。有已确认的规则就先预览再复用，归属不清的留待核对。
-5. **核扣款和返还。** 我把每项扣款、返还、冲回连到原业务，跨月也查一遍。疑似重复先核实，再决定是否调整。
-6. **算收益。** 我从个人归属收入中减去承担的支出、费用和扣款，再加返还。团队按成员汇总。期初和月份齐全时才算累计余额。
-7. **做对账。** 我把同一期间、同一主体、同一口径的明细逐笔比较，核完明细再核合计。发现差额就记录双方来源和下一步。
-8. **出报表。** 我将收支、分配明细和汇总一起核对，重新打开导出文件抽查。未分完的标草稿，缺资料的列待办。
+1. **Set the scope.** I identify the period, bank accounts, and entity covered. I list the records I have and the ones I still need.
+2. **Review bank transactions.** I trace each receipt and payment to its source row. I keep opening balances and totals separate from transactions and check for duplicate imports.
+3. **Allocate receipts.** I confirm what each receipt is for, split it among the entities involved, then allocate each entity's share to the people entitled to it. Commissions come out of that share. Allocated and unallocated amounts must add up to the original receipt.
+4. **Allocate expenses.** I record the category and who bears each cost. I link supporting details, such as payroll entries, to the actual payment. I preview saved allocation rules before applying them and leave unclear assignments open.
+5. **Check deductions, refunds, and reversals.** I link each entry to the underlying transaction and check related periods. I verify a suspected duplicate against the source records before adjusting it.
+6. **Calculate net earnings.** For each person, I start with allocated income, subtract their expenses, fees, and deductions, then add refunds due to them. I sum members' amounts for a team total. I calculate a running balance only when the opening balance and all intervening periods are available.
+7. **Reconcile the records.** I compare individual entries for the same entity, period, and accounting basis, then compare totals. For each difference, I record both source references, the amounts, and the next action.
+8. **Prepare the reports.** I reconcile the receipt, expense, and allocation details to the summary. I reopen the export and trace a summary figure back to its source. I label incomplete reports as drafts and list outstanding items.
 
-AI 执行时按[核对与交付](references/system.md)处理异常。对外材料只写方法，省略个人案例、原始数据和内部标识。
+Use the [reconciliation and reporting checks](references/system.md) when an amount or assignment is unclear. Keep case details, raw records, and internal identifiers out of public material.

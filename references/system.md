@@ -1,11 +1,11 @@
-# 核对与交付
+# Reconciliation and reporting checks
 
-|遇到什么|怎么处理|怎样算完成|
-|---|---|---|
-|分配对不上|从原流水逐层核对主体、人员和剩余可分金额。|已分与待分之和等于原款。人员提成包含在对应主体份额内。|
-|支出有多份依据|把明细、凭证和实际付款关联到同一笔支出。|同一笔钱只扣一次，每项承担额都有依据。|
-|有疑似重复或跨月差额|并列两边的来源、日期、方向和金额。区分已证实的原因和待核实的猜测。|每笔差额有解释或待办。依据明确并经确认后才调整，保留调整记录。|
-|缺少资料|保留缺项，先算资料齐全的部分。|部分结果标明范围，未知金额保持空白。|
-|保存状态不明或已改分配|先回读原记录，再决定是否重试。修改后重算受影响的人员、团队和报表。|重试后仍只有一笔。重新导出的明细、汇总与同期间账目一致。|
+| Issue | What to do | Completion check |
+| --- | --- | --- |
+| An allocation does not balance | Start with the source transaction. Check the entity split, each person's share, and the amount still unassigned. | Assigned and unassigned amounts add up to the original amount. Each commission fits within its entity's share. |
+| Several documents support one expense | Link the breakdown and supporting documents to the same payment. | The payment is counted once, and each person's allocated cost has supporting evidence. |
+| A possible duplicate or a difference across periods | Compare source rows side by side. Check dates, payment direction, and amounts. Record what the evidence shows and what still needs investigation. | Every difference has an explanation or a follow-up action. Record any confirmed adjustment and retain its source. |
+| Records are missing | List the missing records and calculate the portions supported by the available evidence. | The report identifies the scope of partial results. Unknown amounts remain blank. |
+| A save may have failed, or an allocation changed | Read back the saved entry before retrying. After an edit, recalculate the affected individual and team totals and regenerate the reports. | Retrying leaves a single entry. The reopened export agrees with the detail and summary for the same period. |
 
-交付写明账期、主体、已核对事项、未决差额和所缺依据。账务追溯保存在内部工作底稿，对外总结仅保留流程与判断方法。
+When handing over a report, state the period, entity, checks completed, unresolved differences, and evidence still needed. Keep transaction-level evidence in the internal working papers. Share only the workflow and decision criteria publicly.
